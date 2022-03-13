@@ -89,6 +89,8 @@ p {
     text-align: center;
     height: 500px;
     justify-content: center;
+    background-color: blue;
+    color: white;
 }
 
 .icons {
