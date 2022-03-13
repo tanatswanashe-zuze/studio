@@ -41,6 +41,10 @@
             display: inline-block;
         }
         
+        .nav-links li :hover {
+            color: blue;
+        }
+        
         .heading {
             text-align: center;
             font-size: 80px;
@@ -83,26 +87,53 @@
         
         .sect3 {
             text-align: center;
+            height: 800px;
+            justify-content: center;
         }
         
         .icons {
             justify-content: space-evenly;
             display: flex;
+            position: relative;
         }
         
         .design {
             height: 160px;
             padding: 30px;
+            cursor: pointer;
+        }
+        
+        #designt {
+            box-sizing: content-box 160px;
+            padding: 30px;
+            cursor: pointer;
+            display: none;
         }
         
         .dev {
             height: 200px;
             padding: 30px;
+            cursor: pointer;
+        }
+        
+        #devt {
+            box-sizing: content-box 160px;
+            padding: 30px;
+            cursor: pointer;
+            display: none;
         }
         
         .file {
             height: 200px;
             padding: 30px;
+            cursor: pointer;
+        }
+        
+        #filet {
+            box-sizing: content-box 160px;
+            padding: 30px;
+            cursor: pointer;
+            display: none;
         }
         
         .sect4 {
