@@ -95,6 +95,7 @@ p {
     justify-content: space-evenly;
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .design {
