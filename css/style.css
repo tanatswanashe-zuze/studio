@@ -1,178 +1,203 @@
-        * {
-            font-family: Poppins;
-        }
-        
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 30px 10%;
-        }
-        
-        .logo {
-            font-size: 30px;
-        }
-        
-        span {
-            font-style: italic;
-            color: blue;
-        }
-        
-        .nav-links a {
-            font-size: 20px;
-            font-family: "Poppins", sans-serif;
-            color: black;
-            font-weight: 500;
-            text-decoration: none;
-        }
-        
-        .nav-links {
-            list-style: none;
-        }
-        
-        section {
-            justify-content: space-between;
-            align-items: center;
-            padding: 30px 10%;
-        }
-        
-        .nav-links li {
-            padding: 0px 20px;
-            display: inline-block;
-        }
-        
-        .nav-links li :hover {
-            color: blue;
-        }
-        
-        .heading {
-            text-align: center;
-            font-size: 80px;
-        }
-        
-        .subhead {
-            text-align: center;
-            padding: 50px 50px;
-        }
-        
-        p {
-            font-size: 20px;
-        }
-        
-        .btn {
-            background-color: blue;
-            color: white;
-            text-decoration: none;
-            border: 10px solid transparent;
-            font-weight: bold;
-            font-size: medium;
-            padding: 5px 10px;
-            border-radius: 35px;
-        }
-        
-        .secth {
-            text-align: center;
-            height: 800px;
-        }
-        
-        .sect1 {
-            text-align: center;
-            background-color: blue;
-            color: aliceblue;
-        }
-        
-        .sect2 {
-            text-align: center;
-        }
-        
-        .sect3 {
-            text-align: center;
-            height: 800px;
-            justify-content: center;
-        }
-        
-        .icons {
-            justify-content: space-evenly;
-            display: flex;
-            position: relative;
-        }
-        
-        .design {
-            height: 160px;
-            padding: 30px;
-            cursor: pointer;
-        }
-        
-        #designt {
-            box-sizing: content-box 160px;
-            padding: 30px;
-            cursor: pointer;
-            display: none;
-        }
-        
-        .dev {
-            height: 200px;
-            padding: 30px;
-            cursor: pointer;
-        }
-        
-        #devt {
-            box-sizing: content-box 160px;
-            padding: 30px;
-            cursor: pointer;
-            display: none;
-        }
-        
-        .file {
-            height: 200px;
-            padding: 30px;
-            cursor: pointer;
-        }
-        
-        #filet {
-            box-sizing: content-box 160px;
-            padding: 30px;
-            cursor: pointer;
-            display: none;
-        }
-        
-        .sect4 {
-            text-align: center;
-        }
-        
-        .sect5 {
-            text-align: center;
-            height: 500px;
-        }
-        
-        form {
-            justify-content: space-around;
-        }
-        
-        .email,
-        .name {
-            width: 400px;
-            height: 50px;
-            border-radius: 14px;
-            border: 1px solid #777;
-            outline: none;
-        }
-        
-        .message {
-            width: 400px;
-            height: 150px;
-            border-radius: 14px;
-            border: 1px solid #777;
-            outline: none;
-        }
-        
-        .btn2 {
-            background-color: blue;
-            color: white;
-            text-decoration: none;
-            border: 10px solid transparent;
-            font-weight: bold;
-            font-size: medium;
-            padding: 5px 10px;
-            border-radius: 14px;
-        }
+* {
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+span {
+    font-style: italic;
+    color: blue;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.nav-links li :hover {
+    color: blue;
+}
+
+.heading {
+    text-align: center;
+    font-size: 80px;
+}
+
+.subhead {
+    text-align: center;
+    padding: 50px 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 10px solid transparent;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
+
+.secth {
+    text-align: center;
+    height: 800px;
+}
+
+.sect1 {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.sect2 {
+    text-align: center;
+}
+
+.sect3 {
+    text-align: center;
+    height: 800px;
+    justify-content: center;
+}
+
+.icons {
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+}
+
+.design {
+    height: 160px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#designt {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.dev {
+    height: 200px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#devt {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.file {
+    height: 200px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#filet {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.sect4 {
+    text-align: center;
+}
+
+.work-items {
+    display: block;
+    padding: 50px 50px 50px 50px;
+}
+
+.item1 img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.item2 img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.item3 img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.item4 img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.sect5 {
+    text-align: center;
+    height: 500px;
+}
+
+form {
+    justify-content: space-around;
+}
+
+.email,
+.name {
+    width: 400px;
+    height: 50px;
+    border-radius: 14px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+.message {
+    width: 400px;
+    height: 150px;
+    border-radius: 14px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+.btn2 {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 10px solid transparent;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 14px;
+}
