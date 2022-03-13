@@ -9,18 +9,46 @@ header {
     padding: 30px 10%;
 }
 
+.logo {
+    font-size: 30px;
+}
+
+span {
+    color: blue;
+}
+
 .nav-links a {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+    color: black;
     font-weight: 500;
     text-decoration: none;
 }
 
 .nav-links {
     list-style: none;
-    display: flex;
 }
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.sect2 {}
 
 .nav-links li {
     padding: 0px 20px;
+    display: inline-block;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.subhead {
+    display: flex;
 }
