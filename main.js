@@ -44,8 +44,3 @@ $(document).ready(function() {
         });
     });
 });
-$(document).ready(function() {
-    $(".btn2").click(function() {
-        function alert(se)
-    });
-});
