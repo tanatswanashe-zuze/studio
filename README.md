@@ -8,7 +8,7 @@
 
  ## Lisence and Copyright
    
-   + MIT-[LICENSE]
+   + license.mit
 
 ---
 
