@@ -30,13 +30,10 @@ span {
 }
 
 section {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
-
-.sect2 {}
 
 .nav-links li {
     padding: 0px 20px;
@@ -44,11 +41,52 @@ section {
 }
 
 .heading {
-    display: flex;
+    text-align: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .subhead {
     display: flex;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
+
+.secth {
+    text-align: center;
+    height: 1000px;
+}
+
+.sect1 {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.sect2 {
+    text-align: center;
+}
+
+.sect3 {
+    text-align: center;
+}
+
+.sect4 {
+    text-align: center;
+}
+
+.sect5 {
+    text-align: center;
 }
