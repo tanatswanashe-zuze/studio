@@ -13,11 +13,6 @@ header {
     font-size: 30px;
 }
 
-span {
-    font-style: italic;
-    color: blue;
-}
-
 .nav-links a {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
@@ -47,7 +42,7 @@ section {
 
 .heading {
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .subhead {
@@ -73,24 +68,26 @@ p {
 .secth {
     text-align: center;
     height: 800px;
+    background-image: url(/backgrounds/h_img.jpg);
 }
 
 .sect1 {
     text-align: center;
-    background-color: blue;
-    color: aliceblue;
+    ;
+    color: rgb(0, 0, 0);
 }
 
 .sect2 {
     text-align: center;
+    color: white;
+    background-image: url(/backgrounds/s_image.jpg);
 }
 
 .sect3 {
     text-align: center;
     height: 500px;
     justify-content: center;
-    background-color: blue;
-    color: white;
+    color: black;
 }
 
 .icons {
@@ -148,29 +145,15 @@ p {
     padding: 50px 50px 50px 50px;
 }
 
-.item1 img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.item2 img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.item3 img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.item4 img {
-    max-width: 500px;
-    max-height: 500px;
+.item1 .item2 {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .sect5 {
     text-align: center;
     height: 500px;
+    background-image: url(/backgrounds/c_image.jpg);
 }
 
 form {
