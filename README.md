@@ -37,6 +37,7 @@ SOFTWARE.
   + HTML
   + CSS
   + javascript
+  + mailchimp 
 
 ----
 
