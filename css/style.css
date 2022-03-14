@@ -180,9 +180,9 @@ form {
 
 #email,
 #name {
-    width: 300px;
+    width: 400px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #777;
     outline: none;
 }
@@ -190,7 +190,7 @@ form {
 #comments {
     width: 400px;
     height: 150px;
-    border-radius: 14px;
+    border-radius: 5px;
     border: 1px solid #777;
     outline: none;
 }
