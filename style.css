@@ -2,6 +2,8 @@
     font-family: Poppins;
 }
 
+@media screen {}
+
 header {
     display: flex;
     justify-content: space-between;
