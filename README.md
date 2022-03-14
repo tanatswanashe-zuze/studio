@@ -37,7 +37,8 @@ SOFTWARE.
   + HTML
   + CSS
   + javascript
-  + mailchimp 
+  
+   
 
 ----
 
@@ -46,6 +47,7 @@ SOFTWARE.
 + VS CODE
 + CHROME BROWSER 
 + MOZZILA FIREFOX
++ mailchimp
 
 ## LIVE LINK
 
