@@ -68,6 +68,7 @@ p {
 .secth {
     text-align: center;
     height: 700px;
+    background-image: url(/img/img1.jpg);
 }
 
 .sect1 {
@@ -78,6 +79,7 @@ p {
 .sect2 {
     text-align: center;
     color: white;
+    background-image: url(/img/img3.jpg);
 }
 
 .sect3 {
@@ -151,6 +153,7 @@ p {
     color: aliceblue;
     text-align: center;
     height: 500px;
+    background-image: url(/img/img2.jpg);
 }
 
 form {
