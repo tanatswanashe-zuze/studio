@@ -68,7 +68,7 @@ p {
 .secth {
     text-align: center;
     height: 800px;
-    background-image: url(/img/h_img.jpg);
+    background-image: url(/img/himg.jpg);
 }
 
 .sect1 {
@@ -80,7 +80,7 @@ p {
 .sect2 {
     text-align: center;
     color: white;
-    background-image: url(/img/s_image.jpg);
+    background-image: url(/img/simage.jpg);
 }
 
 .sect3 {
@@ -153,7 +153,7 @@ p {
 .sect5 {
     text-align: center;
     height: 500px;
-    background-image: url(/img/c_image.jpg);
+    background-image: url(/img/cimage.jpg);
 }
 
 form {
