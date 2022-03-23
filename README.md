@@ -1,4 +1,4 @@
-# studio website
+#  Delani studio website
 ------
 -----
  ## Cotributors
